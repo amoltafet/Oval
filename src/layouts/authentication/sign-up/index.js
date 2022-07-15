@@ -93,7 +93,7 @@ function SignUp() {
                 Already have an account?&nbsp;
                 <SuiTypography
                   component={Link}
-                  to="/authentication/sign-in"
+                  to="/Oval/authentication/sign-in"
                   variant="button"
                   color="dark"
                   fontWeight="bold"

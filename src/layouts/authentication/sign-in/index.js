@@ -26,7 +26,7 @@ function SignIn() {
   const [password, setPassword] = useState("");
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
   const navigate = useNavigate();
-  const handleOnClick = useCallback(() => navigate('/dashboard', {replace: true}), [navigate]);
+  const handleOnClick = useCallback(() => navigate('/Oval/dashboard', {replace: true}), [navigate]);
 
   const handleSignIn = () => {
     const auth = getAuth();
@@ -98,7 +98,7 @@ function SignIn() {
             Don&apos;t have an account?{" "}
             <SuiTypography
               component={Link}
-              to="/authentication/sign-up"
+              to="/Oval/authentication/sign-up"
               variant="button"
               color="info"
               fontWeight="medium"

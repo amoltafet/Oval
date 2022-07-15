@@ -38,6 +38,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
+import Dashboard from "layouts/dashboard";
 
 export default function App() {
   const [controller, dispatch] = useSoftUIController();
@@ -117,7 +118,7 @@ export default function App() {
       }
 
       if (route.route) {
-        return <Route exact path={route.route} element={route.component} key={route.key} />;
+        return <Route path={route.route} exact element={route.component} key={route.key} />;
       }
 
       return null;
@@ -168,8 +169,7 @@ export default function App() {
         {layout === "vr" && <Configurator />}
         <Routes>
           {getRoutes(routes)}
-          {isLoggedIn && <Route path="*" element={<Navigate to="/Oval/dashboard" />} />}
-          {!isLoggedIn && <Route path="*" element={<Navigate to="/Oval/home" />} />}
+          
           <Route path="/Oval" exact component={<Home />} />
         </Routes>
       </ThemeProvider>
@@ -194,8 +194,7 @@ export default function App() {
       {layout === "vr" && <Configurator />}
       <Routes>
         {getRoutes(routes)}
-        {isLoggedIn && <Route path="*" element={<Navigate to="/Oval/dashboard" />} />}
-        {!isLoggedIn && <Route path="*" element={<Navigate to="/Oval" />} />}
+        <Route path="/Oval" exact component={<Home />} />
       </Routes>
     </ThemeProvider>
   );
