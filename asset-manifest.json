@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Oval/static/js/main.efcb8403.js",
+    "main.js": "/Oval/static/js/main.175fd841.js",
     "static/media/mobile-payments.jpg": "/Oval/static/media/mobile-payments.c2227b7ef8491fb98d12.jpg",
     "static/media/home-decor-3.jpg": "/Oval/static/media/home-decor-3.74d13fcbd3c631fc7908.jpg",
     "static/media/home-decor-2.jpg": "/Oval/static/media/home-decor-2.b4e5397c9846645ba275.jpg",
@@ -40,9 +40,9 @@
     "static/media/logo-atlassian.svg": "/Oval/static/media/logo-atlassian.f2b0e8570a4b4ce768854ff3dad1a6e1.svg",
     "static/media/logo-webdev.svg": "/Oval/static/media/logo-webdev.25d88bfc768c8439fdb33efc0d8e6015.svg",
     "index.html": "/Oval/index.html",
-    "main.efcb8403.js.map": "/Oval/static/js/main.efcb8403.js.map"
+    "main.175fd841.js.map": "/Oval/static/js/main.175fd841.js.map"
   },
   "entrypoints": [
-    "static/js/main.efcb8403.js"
+    "static/js/main.175fd841.js"
   ]
 }
