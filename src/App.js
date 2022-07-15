@@ -170,7 +170,7 @@ export default function App() {
           {getRoutes(routes)}
           {isLoggedIn && <Route path="*" element={<Navigate to="/dashboard" />} />}
           {!isLoggedIn && <Route path="*" element={<Navigate to="/home" />} />}
-          <Route path="/" component={<Home />} />
+          <Route path="/Oval" component={<Home />} />
         </Routes>
       </ThemeProvider>
     </CacheProvider>
