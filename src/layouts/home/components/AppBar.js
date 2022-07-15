@@ -26,22 +26,22 @@ const profileSettings = [
     {
         name: 'Profile',
         icon: <AccountCircleOutlinedIcon fontSize='medium'/>,
-        route: '/profile'
+        route: '/Oval/profile'
     },
     {
         name: 'Dashboard',
         icon: <MapsHomeWorkOutlinedIcon fontSize='medium'/>,
-        route: '/dashboard'
+        route: '/Oval/dashboard'
     },
     {
         name: 'Transactions',
         icon: <AccountBalanceOutlinedIcon fontSize='medium'/>,
-        route: '/billing'
+        route: '/Oval/billing'
     },
     {
         name: 'Logout',
         icon: <ExitToAppIcon fontSize='medium'/>,
-        route: '/logout'
+        route: '/Oval/logout'
     }
 ];
 
@@ -85,7 +85,7 @@ const ResponsiveAppBar = () => {
             variant="h2"
             noWrap
             component="a"
-            href="/"
+            href="/Oval/"
             sx={{
               mr: 25,
               display: { xs: 'none', md: 'flex' },

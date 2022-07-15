@@ -60,7 +60,7 @@ function HeroCover({ color, header, title, description, image, top, children }) 
                         <SuiButton color="info" size="large"
                             startIcon={<AccountCircleOutlinedIcon />}
                             onClick={() => {
-                                window.location.href = "/authentication/sign-in";
+                                window.location.href = "/Oval/authentication/sign-in";
                             }}>
                             Tenant Portal
                         </SuiButton>
@@ -69,7 +69,7 @@ function HeroCover({ color, header, title, description, image, top, children }) 
                     <SuiButton color="info" size="large" 
                         startIcon={<DashboardOutlinedIcon />}
                         onClick={() => {
-                            window.location.href = "/authentication/sign-up";
+                            window.location.href = "/Oval/authentication/sign-up";
                         }
                     }>
                     
@@ -80,7 +80,7 @@ function HeroCover({ color, header, title, description, image, top, children }) 
                         <SuiButton color="light" size="large"
                             startIcon={<DonutSmallOutlinedIcon />}
                             onClick={() => {
-                                window.location.href = "/authentication/sign-in";
+                                window.location.href = "/Oval/authentication/sign-in";
                             }}>
                             Login
                         </SuiButton>
