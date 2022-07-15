@@ -1,16 +1,17 @@
 {
+  "homepage": "https://amoltafet.github.io/oval/",
   "name": "oval-dashboard",
   "version": "1.0.0",
+  "private": true,
   "author": "Ahmad Moltafet",
   "license": "MIT",
   "description": "ReactJS version of Oval Dashboard by Ahmad Moltafet",
-  "homepage": "https://amoltafet.github.io/oval-dashboard/",
   "bugs": {
-    "url": "https://github.com/amoltafet/oval-dashboard/issues"
+    "url": "https://github.com/amoltafet/oval/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amoltafet/oval-dashboard.git"
+    "url": "git+https://github.com/amoltafet/oval.git"
   },
   "engines": {
     "node": "14 || 15 || 16",
