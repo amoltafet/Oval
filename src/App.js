@@ -168,9 +168,9 @@ export default function App() {
         {layout === "vr" && <Configurator />}
         <Routes>
           {getRoutes(routes)}
-          {isLoggedIn && <Route path="*" element={<Navigate to="/dashboard" />} />}
-          {!isLoggedIn && <Route path="*" element={<Navigate to="/home" />} />}
-          <Route path="/Oval" component={<Home />} />
+          {isLoggedIn && <Route path="*" element={<Navigate to="/Oval/dashboard" />} />}
+          {!isLoggedIn && <Route path="*" element={<Navigate to="/Oval/home" />} />}
+          <Route path="/Oval" exact component={<Home />} />
         </Routes>
       </ThemeProvider>
     </CacheProvider>
@@ -194,8 +194,8 @@ export default function App() {
       {layout === "vr" && <Configurator />}
       <Routes>
         {getRoutes(routes)}
-        {isLoggedIn && <Route path="*" element={<Navigate to="/dashboard" />} />}
-        {!isLoggedIn && <Route path="*" element={<Navigate to="/" />} />}
+        {isLoggedIn && <Route path="*" element={<Navigate to="/Oval/dashboard" />} />}
+        {!isLoggedIn && <Route path="*" element={<Navigate to="/Oval" />} />}
       </Routes>
     </ThemeProvider>
   );
